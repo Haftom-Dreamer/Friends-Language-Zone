@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  body {
+    background:  url('Images/backiee-67963.jp') no-repeat;
+    color: rgb(62, 219, 240); 
+  }
+  .Form {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    margin-top: 50px;
+    height: 20px;
+ }
+ .Form h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+ }
+ .Form P {
+    font-size: 20px;
+    margin: 15px 0;
+ }
+ .Form input {
+    font-size: 15px;
+    padding: 8px 4px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+ }
+ .Form select {
+    padding: 6px 3px;
+ }
+ .Form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: aqua;
+ }
+ .Form button:hover {
+    color: crimson;
+    background-color: aquamarine;
+    cursor: pointer;
+ }
+ img {
+   filter: brightness(30%); 
+ }
+ .home p {
+   top: 0;
+   text-align: right;
+   position: absolute;
+   margin-left: 700px;
+   color: rgb(25, 26, 22);
+   background-color: rgb(255, 231, 11);
+   padding: 5px;
+ }
+ .Form1 {
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 350px;
+   margin-top: 150px;
+}
+.Form1 h1 {
+   font-size: 30px;
+   text-align: center;
+   margin: 40px 0;
+}
+.Form1 P {
+   font-size: 20px;
+   margin: 15px 0;
+}
+.form2 input {
+   font-size: 15px;
+   padding: 8px 4px;
+   width: 100%;
+   border: 0;
+   border-radius: 5px;
+   outline: none;
+}
+.Form1 button {
+   font-size: 18px;
+   font-weight: bold;
+   margin: 20px 0;
+   padding: 10px 15px;
+   width: 50%;
+   border: 0;
+   border-radius: 5px;
+   background-color: aqua;
+}
+.Form1 button:hover {
+   color: crimson;
+   background-color: aquamarine;
+   cursor: pointer;
+}
+.inside p {
+   font-size: 13px;
+   color: rgb(214, 208, 208);
+   display: inline-block
+}
+.create {
+   color: aliceblue;
+   top: 0;
+}
+.inside input {
+margin-right: 10px;
+margin-top: 14px;
+}
+.forget {
+   float: right;
+}
+ 
+ 
